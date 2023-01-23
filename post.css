@@ -75,6 +75,7 @@ body{
     color: #ffbc0e;
     transform: scale(1.1);
 }
+
 .post-list {
     display: flex;
     align-items: center;
@@ -86,7 +87,7 @@ body{
 
 .contentp {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
     max-width: 1200px;
     margin: center;

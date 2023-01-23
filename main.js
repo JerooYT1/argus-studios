@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
             if (alturaMaxima) {
                 alturas.push(parrafo.clientHeight);
             } else{
-                parrafo.style.height = alturaMaxima + ¨px¨;
+                parrafo.style.height = alturaMaxima + px;
           }
         });
         return aplicarAltura;
